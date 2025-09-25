@@ -14,6 +14,8 @@ namespace ConsoleApp3
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 8 * Math.Sin(2 * x) - Math.Cos(2 * x);
+            Console.WriteLine($"Для значения x = {x}, F = {F}.");
+            Console.ReadKey();
         }
     }
 }
